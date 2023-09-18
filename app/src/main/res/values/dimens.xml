@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_front_all_height_with_top">220dp</dimen>
+    <dimen name="card_front_all_height_without_top">90dp</dimen>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="notification_channel_id">RhymeCardNotificaion</string>
+    <string name="notification_channel_name">RhymeCard 알림</string>
+    <string name="app_name">RhymeCard</string>
+
+    <string name="intro_sub_title">라임카드는 개인의 DID를 기반으로 개인정보 보안과\n보호를 보장한 QR 및 NFC로 개인과 단체의 커뮤니티를\n라임카드로 생성 및 관리할 수 있는 서비스입니다</string>
+
+    <string name="terms1_main_title">접근권한 안내를\n꼭 확인해 주세요.</string>
+    <string name="terms1_sub_title">편리한 이용을 위해 접근 권한의\n허용을 확인해주세요.</string>
+
+    <string name="terms2_main_title">서비스 이용안내를\n확인해 주세요.</string>
+    <string name="terms2_sub_title">라임카드 서비스 이용을 위한\n약관을 확인해주세요.</string>
+    <string name="terms2_detail"><u>보기</u></string>
+    <string name="terms2_checkall">전체선택</string>
+
+    <string name="detail_main_txt">라임카드 서비스 이용약관</string>
+
+    <string-array name="spinner_tel">
+        <item>통신사</item>
+        <item>SKT</item>
+        <item>KT</item>
+        <item>LGU+</item>
+    </string-array>
+
+    <string name="certification2_sub_title">문자로 전송된 인증번호를 입력해주세요.</string>
+
+    <string name="certification3_sub_title">6자리 숫자를 입력해주세요</string>
+
+    <string name="certi4_main_title">인증 시 사용할\n생체 인증을 설정해주세요.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

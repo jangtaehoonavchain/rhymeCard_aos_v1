@@ -1,0 +1,191 @@
+{
+  "project_info": {
+    "project_number": "645134015794",
+    "firebase_url": "https://push-5b326.firebaseio.com",
+    "project_id": "push-5b326",
+    "storage_bucket": "push-5b326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645134015794:android:772861d3d3a97db7f74b2b",
+        "android_client_info": {
+          "package_name": "com.healthavatar.avatarfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOC6q6TlNrrbI4E_2lXp0ivq759FGnG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645134015794-0kvj66vr2ervmt6qrqaekob4hdrjb6sk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.snubi.ncrc.hap.DialysisNet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645134015794:android:bb3d3b5e1802eef6f74b2b",
+        "android_client_info": {
+          "package_name": "com.healthavatar.avatarhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOC6q6TlNrrbI4E_2lXp0ivq759FGnG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645134015794-0kvj66vr2ervmt6qrqaekob4hdrjb6sk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.snubi.ncrc.hap.DialysisNet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645134015794:android:a1bb2665be8938a4f74b2b",
+        "android_client_info": {
+          "package_name": "io.avchain.rhymecard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOC6q6TlNrrbI4E_2lXp0ivq759FGnG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645134015794-0kvj66vr2ervmt6qrqaekob4hdrjb6sk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.snubi.ncrc.hap.DialysisNet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645134015794:android:0e260de23db5c23e",
+        "android_client_info": {
+          "package_name": "org.snubi.avatarbeans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOC6q6TlNrrbI4E_2lXp0ivq759FGnG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645134015794-0kvj66vr2ervmt6qrqaekob4hdrjb6sk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.snubi.ncrc.hap.DialysisNet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645134015794:android:c907ce4c81c4aa39",
+        "android_client_info": {
+          "package_name": "org.snubi.beansavatar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOC6q6TlNrrbI4E_2lXp0ivq759FGnG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645134015794-kueli4d4s9lrdr06b0i9fsf00gimbsq0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645134015794-0kvj66vr2ervmt6qrqaekob4hdrjb6sk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.snubi.ncrc.hap.DialysisNet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

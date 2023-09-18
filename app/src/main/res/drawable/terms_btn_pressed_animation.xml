@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 체크박스가 체크되고 버튼이 눌렸을 때 -->
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/component_btn_long_darkblue" />
+
+    <!-- 체크박스가 체크되지 않았고 버튼이 눌렸을 때 -->
+    <item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/component_btn_long_lightblue" />
+
+    <!-- 버튼이 눌리지 않았을 때 -->
+    <item android:drawable="@drawable/component_btn_long_gray" />
+
+    <!-- 체크박스가 체크되고 버튼이 이미 component_btn_long_lightblue 상태일 때 -->
+    <item android:state_checked="true" android:drawable="@drawable/component_btn_long_darkblue" />
+</selector>

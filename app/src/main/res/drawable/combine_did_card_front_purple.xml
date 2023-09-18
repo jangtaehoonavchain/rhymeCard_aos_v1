@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- shape 리소스 -->
+    <item android:drawable="@drawable/component_club_card_front_purple" />
+
+    <!-- vector 리소스 -->
+    <item android:drawable="@drawable/did_card_front_bgicon_purple" />
+</layer-list>

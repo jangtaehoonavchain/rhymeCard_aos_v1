@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub2_scrollview_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/createclub2_scrollview_sub_title"
+            style="@style/signup_sub_title_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="생성된 라임카드를 취향대로 꾸며보세요."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub2_scrollview_top">
+
+        <ViewFlipper
+            android:id="@+id/activity_create_club2_custum_viewFlipper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/component_club_card_front_lightblue"
+                layout="@layout/component_club_card_front_blue" />
+
+        </ViewFlipper>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content2_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_name"
+                    style="@style/activity_create_club2_scrollview_constraintLayout1_tabbtn1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/combine_btn_custum_card"
+                    android:text="회원명"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_profile_img"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_profile_img"
+                    style="@style/activity_create_club2_scrollview_constraintLayout1_tabbtn1_name"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/component_tabbtn_before"
+                    android:text="프로필 이미지"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_terms"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_name"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_terms"
+                    style="@style/activity_create_club2_scrollview_constraintLayout1_tabbtn1_name"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/component_tabbtn_before"
+                    android:text="기간"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_profile_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content2_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content2_btn1">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_background"
+                    style="@style/activity_create_club2_scrollview_constraintLayout1_tabbtn1_name"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/component_tabbtn_before"
+                    android:text="전체 배경 사진"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_text"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_text"
+                    style="@style/activity_create_club2_scrollview_constraintLayout1_tabbtn1_name"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/component_tabbtn_before"
+                    android:text="나만의 문구 추가"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/activity_create_club2_scrollview_constraintLayout1_tabbtn1_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content2_btn2">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" >
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_name_next_btn"
+                        style="@style/intro_btn_long_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/combine_btn_long_blue"
+                        android:text="다음"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:visibility="invisible"
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_profile_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_name">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_profile_img_next_btn"
+                        style="@style/intro_btn_long_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/combine_btn_long_blue"
+                        android:text="다음"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:visibility="invisible"
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_terms"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_profile_img">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_terms_next_btn"
+                        style="@style/intro_btn_long_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/combine_btn_long_blue"
+                        android:text="다음"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:visibility="invisible"
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_terms">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="전체배경사진 변경 페이지 입니다."
+                        android:textSize="25dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:visibility="invisible"
+                    android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_background">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_title"
+                            style="@style/manage_profile_scrollview_content_myprofile_edit_email_section_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="나만의 문구를 추가해 주세요."
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <EditText
+                            android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_content"
+                            style="@style/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="10dp"
+                            android:hint="여러분의 마음을 치료해주는 김닥터 입니다. \n환영합니다 :)"
+                            app:layout_constraintEnd_toStartOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_color_btn"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_title" />
+
+                        <ImageButton
+                            android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_color_btn"
+                            style="component_btn_short_blue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/create_club_change_color_btn"
+                            android:text="변경"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_content"
+                            app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_title"
+                            app:layout_constraintVertical_bias="0.26" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_content">
+
+                            <CheckBox
+                                android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_1_top"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/combine_checkbox_small"
+                                android:button="@null"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_1_top_txt"
+                                style="@style/signup_sub_title_black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="상단"
+                                android:layout_marginLeft="2dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_1_top"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="94dp"
+                            android:layout_marginTop="10dp"
+                            app:layout_constraintStart_toEndOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_1"
+                            app:layout_constraintTop_toBottomOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_content">
+
+                            <CheckBox
+                                android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_2_middle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/combine_checkbox_small"
+                                android:button="@null"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_2_middle_txt"
+                                style="@style/signup_sub_title_black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="중간"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/activity_create_club2_scrollview_constraintLayout1_content3_text_change_ckb_2_middle"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

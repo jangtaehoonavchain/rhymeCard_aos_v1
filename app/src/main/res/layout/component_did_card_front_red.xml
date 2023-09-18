@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/combine_did_card_front_red" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/component_did_card_front_red_top"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/did_card_front_red_hide_txt"
+            style="@style/did_card_hide_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:text="숨기기"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/did_card_front_red_toogle"
+                android:layout_width="34dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/did_card_front_toggle_gray_off"
+                app:layout_constraintStart_toEndOf="@+id/did_card_front_red_hide_txt"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/did_card_front_red_custum_btn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/card_front_custum_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/did_card_front_red_flipper_btn" />
+
+        <ImageButton
+            android:id="@+id/did_card_front_red_flipper_btn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/card_front_flip_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/component_did_card_front_red_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/component_did_card_front_red_top">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/component_did_card_front_red_bottom_constraint_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageButton
+                        android:id="@+id/component_did_card_front_red_bottom_constraint_1_profile_img"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/club_card_front_profile_sample_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/component_did_card_front_red_bottom_constraint_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/component_did_card_front_red_bottom_constraint_1">
+
+                    <TextView
+                        android:id="@+id/component_did_card_front_red_bottom_constraint_2_name"
+                        style="@style/did_card_name_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="이성철"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/component_did_card_front_red_bottom_constraint_2_gender"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginBottom="4dp"
+                        android:src="@drawable/did_card_front_female_white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/component_did_card_front_red_bottom_constraint_2_name" />
+
+                    <TextView
+                        android:id="@+id/component_did_card_front_red_bottom_constraint_2_birth"
+                        style="@style/did_card_birth_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="1995.03.10"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/component_did_card_front_red_bottom_constraint_2_gender" />
+
+                    <TextView
+                        android:id="@+id/component_did_card_front_red_bottom_constraint_2_tel"
+                        style="@style/did_card_birth_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="010-1234-5678"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/component_did_card_front_red_bottom_constraint_2_birth" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/component_did_card_front_red_bottom_constraint_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/component_did_card_front_red_bottom_constraint_2">
+
+                    <TextView
+                        android:id="@+id/component_did_card_front_red_bottom_constraint_3_did"
+                        style="@style/did_card_did_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DID : meta:0000999999 ∙ 0c320"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/component_did_card_front_red_bottom_constraint_3_copy_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/did_card_front_copy_white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/component_did_card_front_red_bottom_constraint_3_did"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>

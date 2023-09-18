@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/certification2_scrollview_constraint1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/certification2_scrollview_constraint1_verification_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/certification2_scrollview_constraint1_verification_code_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/certification2_scrollview_constraint1_verification_code_section_title"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_email_section_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="인증번호"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/certification2_scrollview_constraint1_verification_code_section_edittxt"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@null"
+                    android:hint="인증번호 입력"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/certification2_scrollview_constraint1_verification_code_section_resttime"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/certification2_scrollview_constraint1_verification_code_section_title" />
+
+                <TextView
+                    android:id="@+id/certification2_scrollview_constraint1_verification_code_section_resttime"
+                    style="@style/field_code_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="20dp"
+                    android:text="02:59"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/certification2_scrollview_constraint1_verification_code_section_recall_btn"
+                    app:layout_constraintTop_toBottomOf="@+id/certification2_scrollview_constraint1_verification_code_section_title" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/certification2_scrollview_constraint1_verification_code_section_recall_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/component_btn_short_blue"
+                    android:text="재요청"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/certification2_scrollview_constraint1_verification_code_section_title" />
+
+                <View
+                    android:id="@+id/certification1_scrollview_constraint1_name_view"
+                    style="@style/field_view_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/certification2_scrollview_constraint2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/certification2_scrollview_constraint1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/certification1_scrollview_constraint2_btn_ok"
+            style="@style/signup_btn_long_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/component_btn_long_gray"
+            android:text="확인"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

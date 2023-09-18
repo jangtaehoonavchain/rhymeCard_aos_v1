@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/createclub1_scrollview_sub_title"
+            style="@style/signup_sub_title_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카드 생성 내용은 발급 후 수정이 불가합니다."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_top">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분류"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_category_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_category">
+
+            <Spinner
+                android:id="@+id/createclub1_scrollview_content_category_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_category_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_category_spinner" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_clubname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="라임카드명"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_clubname_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_clubname">
+
+            <EditText
+                android:id="@+id/createclub1_scrollview_content_clubname_editText"
+                style="@style/field_sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="라임카드명 입력(30글자 미만)"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_clubname_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_clubname_editText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회비"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee">
+
+            <CheckBox
+                android:id="@+id/createclub1_scrollview_content_membership_fee_ckbox_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="있음"
+                app:layout_constraintEnd_toStartOf="@+id/createclub1_scrollview_content_membership_fee_ckbox_n"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/createclub1_scrollview_content_membership_fee_ckbox_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="없음"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/createclub1_scrollview_content_membership_fee_ckbox_y"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_membership_fee_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회비금액"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_money_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_money">
+
+            <EditText
+                android:id="@+id/createclub1_scrollview_content_membership_fee_money_editText"
+                style="@style/field_sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="회비금액 입력(30글자 미만)"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_membership_fee_money_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_money_editText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="은행"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_bank_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_bank">
+
+            <Spinner
+                android:id="@+id/createclub1_scrollview_content_membership_fee_bank_viewspinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_membership_fee_bank_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_bank_viewspinner" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_5">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예금주 입력"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_name_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_name">
+
+            <EditText
+                android:id="@+id/createclub1_scrollview_content_membership_fee_name_editText"
+                style="@style/field_sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="예금주 입력"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_membership_fee_name_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_name_editText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_6">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_validity_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="유효기간"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_membership_fee_validity_date_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_validity_date">
+
+            <EditText
+                android:id="@+id/createclub1_scrollview_content_membership_fee_validity_date_editText"
+                style="@style/field_sub_title"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="2023.10.10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/createclub1_scrollview_content_membership_fee_validity_date_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/create_club_calendar_ic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/createclub1_scrollview_content_membership_fee_validity_date_editText"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466" />
+
+
+            <Spinner
+                android:id="@+id/createclub1_scrollview_content_membership_fee_validity_date_spinner"
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/createclub1_scrollview_content_membership_fee_validity_date_calendar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.476" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_membership_fee_validity_date_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_membership_fee_validity_date_editText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/createclub1_scrollview_content_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_7">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_closing_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/field_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="발급 마감일시"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createclub1_scrollview_content_closing_date_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_closing_date">
+
+            <EditText
+                android:id="@+id/createclub1_scrollview_content_closing_date_editText"
+                style="@style/field_sub_title"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="2023.10.10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/createclub1_scrollview_content_closing_date_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/create_club_calendar_ic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/createclub1_scrollview_content_closing_date_editText"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466" />
+
+
+            <Spinner
+                android:id="@+id/createclub1_scrollview_content_closing_date_spinner"
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/createclub1_scrollview_content_closing_date_calendar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.476" />
+
+            <View
+                android:id="@+id/createclub1_scrollview_content_closing_date_view"
+                style="@style/field_view_black"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_closing_date_editText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createclub1_scrollview_content_8">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/create_club1_scrollview_btn_ok"
+            style="@style/intro_btn_long_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/component_btn_long_lightblue"
+            android:text="다음"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

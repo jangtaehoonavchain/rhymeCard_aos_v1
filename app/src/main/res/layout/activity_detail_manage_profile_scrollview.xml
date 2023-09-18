@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/manage_profile_scrollview_top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/manage_profile_scrollview_top_myprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/manage_profile_scrollview_top_myprofile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/manage_profile_image_sample"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/manage_profile_scrollview_top_myprofile_edit_image_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/manage_profile_edit_image_btn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/manage_profile_scrollview_top_myprofile_image"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/manage_profile_scrollview_top_myprofile_info"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/manage_profile_scrollview_top_myprofile"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/manage_profile_scrollview_top_myprofile_info_content_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_top_myprofile_info_name"
+                    style="@style/manage_profile_scrollview_top_myprofile_info_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="이성철"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/manage_profile_scrollview_top_myprofile_info_gender"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="2dp"
+                    android:src="@drawable/did_card_front_male_black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/manage_profile_scrollview_top_myprofile_info_name" />
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_top_myprofile_info_birth"
+                    style="@style/manage_profile_scrollview_top_myprofile_info_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="1995.03.10"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/manage_profile_scrollview_top_myprofile_info_gender" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/manage_profile_scrollview_top_myprofile_info_content_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_top_myprofile_info_content_1">
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_top_myprofile_info_tel"
+                    style="@style/manage_profile_scrollview_top_myprofile_info_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="010-1234-5678"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/manage_profile_scrollview_top_myprofile_info_content_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_top_myprofile_info_content_2">
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_top_myprofile_info_did"
+                    style="@style/manage_profile_scrollview_top_myprofile_info_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DID:meta:0000999999 0c320"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+                    android:id="@+id/manage_profile_scrollview_top_myprofile_info_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/did_card_front_copy_black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/manage_profile_scrollview_top_myprofile_info_did" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/manage_profile_scrollview_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_top">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/manage_profile_scrollview_content_myprofile_edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/manage_profile_scrollview_content_myprofile_edit_email_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_email_section_title"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_email_section_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="이메일 주소"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_email_section_content"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_email_section_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="card@gmail.com"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_email_section_title" />
+
+                <View
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_email_view"
+                    style="@style/field_view_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="11dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_email_section_content" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_email">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_title"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_email_section_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="계좌번호"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="51dp"
+                    android:text="00-000000-000000"
+                    app:layout_constraintEnd_toStartOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_editbtn"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_title" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_editbtn"
+                    style="component_btn_short_blue"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/component_btn_short_blue"
+                    android:text="변경"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_title" />
+
+                <View
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_view"
+                    style="@style/field_view_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="11dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_account">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_category_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_category_section_title"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_email_section_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="은행"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Spinner
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_category_section_content"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="00-000000-000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_category_section_title" />
+
+                <View
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_category_view"
+                    style="@style/field_view_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="11dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_category_section_content" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_category">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_title"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_email_section_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="예금주"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_content"
+                    style="@style/manage_profile_scrollview_content_myprofile_edit_bank_account_section_content"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="51dp"
+                    android:text="이성철"
+                    app:layout_constraintEnd_toStartOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_editbtn"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_title" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_editbtn"
+                    style="component_btn_short_blue"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/component_btn_short_blue"
+                    android:text="변경"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_content"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_title" />
+
+                <View
+                    android:id="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_view"
+                    style="@style/field_view_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="11dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name_section_content" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/manage_profile_scrollview_content_myprofile_unregister"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/manage_profile_scrollview_content_myprofile_edit_bank_name">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/manage_profile_scrollview_content_myprofile_unregister_btn"
+                style="@style/manage_profile_scrollview_content_myprofile_unregister_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="회원탈퇴"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

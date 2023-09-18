@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- activity_intro 페이지 스타일 요소 시작 -->
+
+    <style name="intro_sub_title_white">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="intro_btn_long_black">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#1E3142</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="intro_btn_long_white">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <!-- activity_intro 페이지 스타일 요소 끝 -->
+
+    <!-- activity_signup_terms1 페이지 스타일 요소 시작 -->
+
+    <style name="signup_main_title_black">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="signup_sub_title_black">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <style name="signup_cardview">
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="signup_cardview_nfc">
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="signup_cardview_ic">
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="signup_cardview_txt_black">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="signup_btn_long_blue">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <!-- activity_signup_terms1 페이지 스타일 요소 끝 -->
+
+    <!-- activity_signup_terms2 페이지 스타일 요소 시작 -->
+
+    <style name="signup_ckbox_ic">
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="signup_ckbox_txt1">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="signup_ckbox_btn">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FF005D</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="signup_btn_long_gray">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+
+    <!-- activity_signup_terms2 페이지 스타일 요소 끝 -->
+
+    <!-- activity_signup_terms_detail 페이지 스타일 요소 시작 -->
+
+    <style name="signup_sub_txt">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="detail_quote_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="detail_descrip_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <!-- activity_signup_terms_detail 페이지 스타일 요소 끝 -->
+
+    <!-- component_signup_certification1 페이지 스타일 요소 시작 -->
+
+    <style name="field_main_title">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <style name="field_sub_title">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#CACACA</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="field_view_black">
+        <item name="android:textSize">16dp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="field_view_gray">
+        <item name="android:textSize">16dp</item>
+        <item name="android:background">#CACACA</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="Cardview_ckbox_edit_btn1">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FF005D</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="Cardview_ckbox_edit_txt1">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="signup_ckbox_txt2">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <!-- component_signup_field_tel 페이지 스타일 요소 끝 -->
+
+    <!-- component_signup_certification2 페이지 스타일 요소 시작 -->
+
+    <style name="field_code_time">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FF512A</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <!-- component_signup_certification2 페이지 스타일 요소 끝 -->
+
+    <!-- activity_signup_addinfo 페이지 스타일 요소 시작 -->
+
+    <style name="addinfo_sub_title">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">#2D5478</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+
+    <!-- activity_signup_addinfo 페이지 스타일 요소 끝 -->
+
+    <!-- fragment_home 페이지 스타일 요소 시작 -->
+
+    <style name="fragment_home_list_title">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="fragment_home_list_line_1">
+        <item name="android:textSize">16dp</item>
+        <item name="android:background">#CACACA</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="fragment_home_createcard_txt">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <!-- fragment_home 페이지 스타일 요소 끝 -->
+
+    <!-- fragment_wallet 페이지 스타일 요소 시작 -->
+
+    <style name="fragment_wallet_favorite_card_title">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="fragment_wallet_favorite_card_num">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#143757</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="fragment_wallet_favorite_card_open_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+    <!-- fragment_wallet 페이지 스타일 요소 끝 -->
+
+    <!-- fragment_more 페이지 스타일 요소 시작 -->
+
+    <style name="radio_main_text">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@drawable/selector_radio_main_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- fragment_more 페이지 스타일 요소 끝 -->
+
+    <!-- component_morepage_list 페이지 스타일 요소 시작 -->
+
+    <style name="component_list_txt">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="component_list_txt_sub">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#2D5478</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <!-- component_morepage_list 페이지 스타일 요소 끝 -->
+
+    <!-- component_did_card_front 페이지 스타일 요소 시작 -->
+
+    <style name="did_card_hide_txt">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="did_card_front_hide_descript_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="did_card_name_txt">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="did_card_birth_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="did_card_tel_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="did_card_did_txt">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="NoMarginSwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:thumbTextPadding">0dp</item>
+        <item name="android:track">@null</item>
+    </style>
+
+
+    <!-- component_did_card_front 페이지 스타일 요소 끝 -->
+
+    <!-- component_did_card_back 페이지 스타일 요소 시작 -->
+
+    <style name="did_card_back_resttime_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#9E9E9E</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <style name="did_card_back_time_txt">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FF512A</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="did_card_back_resttime">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FF512A</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <!-- component_did_card_back 페이지 스타일 요소 끝 -->
+
+    <!-- component_club_card_front 페이지 스타일 요소 시작 -->
+
+    <style name="club_card_name_txt">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="club_card_front_date_txt">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="club_card_front_category">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <!-- component_club_card_front 페이지 스타일 요소 끝 -->
+
+    <!-- fragment_home_listview_item 페이지 스타일 요소 시작 -->
+
+    <style name="fragment_home_listview_title">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#1E3142</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="fragment_home_listview_date">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#9E9E9E</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <!-- fragment_home_listview_item 페이지 스타일 요소 끝 -->
+
+    <!-- activity_detail_manage_profile 페이지 스타일 요소 시작 -->
+
+    <style name="manage_profile_scrollview_top_myprofile_info_name">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="manage_profile_scrollview_top_myprofile_info_birth">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="manage_profile_scrollview_top_myprofile_info_tel">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#9E9E9E</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="manage_profile_scrollview_content_myprofile_edit_email_section_title">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <style name="manage_profile_scrollview_content_myprofile_edit_email_section_content">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#9E9E9E</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <style name="manage_profile_scrollview_content_myprofile_edit_bank_account_section_content">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+    <style name="component_btn_short_blue">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#2D5478</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_medium</item>
+    </style>
+
+    <style name="manage_profile_scrollview_content_myprofile_unregister_btn">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <!-- activity_detail_manage_profile 페이지 스타일 요소 끝 -->
+
+    <!-- activity_creat_club 페이지 스타일 요소 시작 -->
+
+    <style name="activity_create_club2_scrollview_constraintLayout1_tabbtn1_name">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#2D5478</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+    <style name="activity_create_club2_scrollview_constraintLayout2_content_email_btn">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#2D5478</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_bold</item>
+    </style>
+
+
+    <style name="activity_create_club2_scrollview_constraintLayout1_content1_address">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#0075FF</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/notosanskr_regular</item>
+    </style>
+
+
+    <!-- activity_creat_club 페이지 스타일 요소 끝 -->
+
+
+
+
+</resources>
